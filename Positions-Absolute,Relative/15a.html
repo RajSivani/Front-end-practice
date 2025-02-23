@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 3000px;
+        }
+
+        .closeButton {
+            background-color: black;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+            position: absolute;
+            top: -12px;
+            ;
+            left: -10px;
+            border: 0;
+
+        }
+
+        .fixed {
+            position: fixed;
+            background-color: rgb(171, 165, 165);
+            width: 320px;
+            height: 180px;
+            bottom: 0;
+            right: 0;
+            margin: 12px 10px;
+        }
+
+        .Timestamp {
+            background-color: black;
+            color: white;
+            bottom: 10px;
+            right: 10px;
+            position: absolute;
+            padding: 2px 5px;
+        }
+
+        .Relative {
+            position: relative;
+            background-color: white;
+            top: 0;
+            right: 0;
+            width: 250px;
+            height: 250px;
+            margin-right: 10px;
+
+
+        }
+
+        .Relative1 {
+            position: relative;
+            background-color: white;
+            top: 0;
+            right: 0;
+            width: 250px;
+            height: 250px;
+            margin-right: 10px;
+
+
+        }
+
+        .Absolute {
+            position: absolute;
+            width: 90%;
+            height: 90%;
+            object-fit: cover;
+            object-position: top;
+            padding-top: 7px;
+            padding-left: 7px;
+
+        }
+
+        .offer {
+            position: absolute;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            top: 12px;
+            right: 19px;
+            background-color: black;
+            font-size: 9px;
+            padding: 5px 8px;
+        }
+
+        .main {
+            display: flex;
+            background-color: black;
+            justify-content: space-between;
+            height: 300px;
+            width: 500px;
+            align-items: center;
+            padding-left: 10px;
+        }
+
+        .horizantal-bar {
+            position: absolute;
+            background-color: rgba(247, 248, 254, 0.747);
+            bottom: 0;
+            left: 0;
+            right: 0;
+            align-items: center;
+            justify-content: center;
+            height: 70px;
+            display: flex;
+        }
+
+        .horizantal-bar button {
+            padding: 5px 9px;
+            background-color: white;
+            border: 1px solid black;
+            font-size: 13px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--    
+    <div class="fixed">
+        <button class="closeButton">X</button>
+        <div class="Timestamp">0:29</div>
+    </div> -->
+    <div class="main">
+        <div class="Relative1">
+            <img class="Absolute" src="Lucy.jpg">
+            <div class="offer"> 20% OFF</div>
+        </div>
+        <div class="Relative">
+            <img class="Absolute" src="Lucy.jpg">
+            <div class="offer"> 20% OFF</div>
+            <div class="horizantal-bar">
+                <button>Add to cart</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

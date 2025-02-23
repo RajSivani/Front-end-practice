@@ -1,0 +1,41 @@
+.flex {
+    display: flex;
+    height: 50px;
+    margin-bottom: 30px;
+
+}
+
+.pink {
+    background-color: pink;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.blue {
+    background-color: skyblue;
+    width: 200px;
+}
+
+.item1{
+    color: white;
+    background-color: black;
+
+}
+.flexbox{
+    display: flex;
+    height:50px;
+}
+.pink1{
+    background-color: pink;
+    width: 100px;
+}
+.nested{
+  display: flex;
+  justify-content: space-between;
+}
+.row2{
+    background-color: black;
+    color:white;
+}

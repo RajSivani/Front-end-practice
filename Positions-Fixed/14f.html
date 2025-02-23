@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .sidebar-1{
+            width: 70px;
+            position: fixed;
+            background-color: rgb(31, 30, 30);
+            padding-top: 10px;
+            top:0;
+            left: 0;
+            bottom: 0;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            object-fit: cover;
+            object-position: top;
+            display: block;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+        }
+        .main,.info{
+            display: flex;
+        }
+        .sidebar-2{
+           background-color:rgb(54, 52, 52);
+           width: 200px ;
+           position: fixed;
+           left: 70px;
+           top:0;
+           bottom: 0;
+           div{
+             font-family: Arial, Helvetica, sans-serif;
+             padding:6px;
+           }
+
+        }
+        .info{
+            justify-content: space-between;
+            color: white;
+            font-size: 13px;
+            align-items: center;
+            .add{
+                font-size: 28px;
+                color: rgb(163, 159, 159);
+            }
+        }
+    
+          
+           div{
+            margin-bottom: 10px;
+            color: gray;
+           }
+        
+       
+      
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar-1">
+            <img src="cat.jpg">
+            <img src="DOG.jpg">
+            <img src="Lucy.jpg">
+        </div>
+        <div class="sidebar-2">
+            <div class=info>
+                <div>INFO</div>
+                <div class="add">+</div>
+            </div> 
+            <div class="info2">
+                <div> #  new-videos</div>
+                <div># updates</div>
+                <div># faq</div>
+            </div>
+           
+        </div>
+    </div>
+    
+</body>
+</html>
